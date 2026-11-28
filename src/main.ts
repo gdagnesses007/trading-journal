@@ -7,7 +7,6 @@ import App from './App.vue'
 import router from './router'
 import { useAuthStore } from '@/stores/auth'
 
-
 async function bootstrap() {
   const app = createApp(App)
 
